@@ -51,9 +51,33 @@ main {
 .center {
     display: grid;
     border: solid black 1px;
+    grid-template-rows: 10% 90%;
 }
 
 .right {
     display: grid;
+    border: solid black 1px;
+    grid-template-rows: 90% 10%;
+}
+
+div {
+    border: solid black 1px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    border: solid black 1px;
+}
+
+.community {
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+    border: solid black 1px;
+}
+
+.housing {
+    display: grid;
+    grid-template-rows: 40% 60%;
     border: solid black 1px;
 }

@@ -57,7 +57,7 @@ main {
 .right {
     display: grid;
     border: solid black 1px;
-    grid-template-rows: 90% 10%;
+    grid-template-rows: 100%;
 }
 
 div {
@@ -79,5 +79,11 @@ div {
 .housing {
     display: grid;
     grid-template-rows: 40% 60%;
+    border: solid black 1px;
+}
+
+.jobs {
+    display: grid;
+    grid-template-rows: 80% 20%;
     border: solid black 1px;
 }
